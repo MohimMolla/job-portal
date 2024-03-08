@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.overflow-hidden-lg {
+  height: 100vh;
+  overflow-y: hidden;
+  @media (max-width: 990px) {
+    height: auto;
+    overflow-y: auto;
+  }
+}
+.navbar-light .navbar-nav .nav-link.btn:hover,
+.navbar-light .navbar-nav .nav-link.btn:focus {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border-radius: 50px;
+}
+
+.mt-8 {
+  margin-top: 8rem;
+}
+
+.brand {
+  min-height: 80vh;
+}
+
+.find {
+  min-height: 100vh;
+}
+
+.bg-light-red {
+  background: #ffe0e0;
+}
+
+.postjob {
+  padding: 3rem 0;
+}
+
+.display-5 {
+  font-size: 2.5rem;
+}
+
+.btn {
+  border-radius: 50px !important;
+}
+
+section.userhome {
+  ul {
+    margin-top: 2rem;
+  }
+
+  p,
+  ul {
+    font-size: 1.3rem;
+  }
+}
+
+.find {
+  background: #fff7f7;
+  padding: 4rem 0;
+}
+
+.input-group-text {
+  background: #fff;
+}
+
+.bg-light-sky {
+  background: #dce6f1;
+}
+
+.bg--light-gray {
+  background: #f3f2ef;
+}
+
+.main {
+  min-height: 77vh;
+}
+
+.footer {
+  background-color: darkcyan;
+  color: #fff;
+  a {
+    color: gold;
+  }
+}
+
+.job-section {
+  .job-link {
+    color: #333;
+  }
+}
+
+.job-left {
+  height: 90vh;
+  overflow-y: auto;
+  .job-in {
+    border-bottom: 1px solid #f3f2ef;
+    padding: 1rem;
+    &.active {
+      background-color: rgba(152, 216, 244, 0.25);
+    }
+    a {
+      font-size: 1.3rem;
+      color: #0a66c2;
+      &:visited {
+        color: #592099;
+        text-decoration: underline !important;
+      }
+    }
+  }
+  @media (max-width: 990px) {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.job-right {
+  height: 90vh;
+  overflow-y: auto;
+  .job-title {
+    a {
+      color: #444;
+    }
+  }
+  .job-box__html-content {
+    p {
+      font-size: 1rem;
+      line-height: 1.42857;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.9);
+      margin: 0;
+    }
+  }
+
+  .job-bottom-info {
+    border-top: 1px solid #eee;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    ul {
+      list-style-type: none;
+      li {
+        display: block;
+      }
+    }
+  }
+  @media (max-width: 990px) {
+    height: auto;
+    overflow-y: auto;
+  }
+}
+
+.jobs {
+  .tags {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 1.2rem;
+    li {
+      display: inline-block;
+      div {
+        padding: 0.125rem 0.25rem;
+        background: gray;
+        color: #fff;
+        font-size: 0.75rem;
+        margin-right: 0.25rem;
+      }
+    }
+  }
+}
